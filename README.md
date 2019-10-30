@@ -1,2 +1,2 @@
 # CommonProject
-This is a common project folder
+This is a folder for common project
