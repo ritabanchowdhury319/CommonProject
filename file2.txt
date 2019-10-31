@@ -1,3 +1,8 @@
+Hello I am changing this file 
+This is to create a merge conflict 
+check check
+:)
+
 -- This snip used to build a lookup table of amplify users who activated during a specific timeframe
 amplify_users(date_1, date_2)
 {
