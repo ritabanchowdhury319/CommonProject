@@ -1,0 +1,3 @@
+A larger part of the project revolved around loading in and reading out the .PGM ?les. I set up 2D arrays using an array of pointers. 
+Setting one up for the image being read in, as well as the image to be written out. While reading in the image, the matrix dimensions were 
+captured from the header to dynamically set up the 2D array.

@@ -1,0 +1,10 @@
+-- This snip used to build a lookup table of amplify users who activated during a specific timeframe
+amplify_users(date_1, date_2)
+{
+SELECT 
+	DISTINCT IMC_key_no FROM AIUKW84.AMPLIFY_USER_DATA -- multiple lines based on usage? Could use this to generate strength of users...
+WHERE 
+	CREAT_DT >= to_date('01-Nov-2018 00:00', 'DD-MON-YYYY hh24:mi')
+	AND 
+	CREAT_DT < to_date('01-Dec-2018 00:00', 'DD-MON-YYYY hh24:mi')
+}
